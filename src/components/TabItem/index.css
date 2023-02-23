@@ -1,0 +1,20 @@
+.button {
+  color: #7b8794;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 6px 20px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 900;
+}
+.buttonBar {
+  border-bottom: 4px solid transparent;
+}
+
+.active {
+  border-bottom: 4px solid #2563eb;
+}
+.color {
+  color: #2563eb;
+}

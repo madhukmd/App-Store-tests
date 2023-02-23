@@ -1,0 +1,47 @@
+.AppCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  background-color: #ffffff;
+  border-radius: 12px;
+
+  width: 45%;
+  max-width: 120px;
+  padding-top: 20px;
+  margin: 7px;
+  /* transition: 1s; */
+}
+
+.AppCard:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px 5px #ace0f9;
+}
+
+@media screen and (min-width: 768px) {
+  .AppCard {
+    /* height: 250px; */
+    max-width: 200px;
+  }
+}
+.image-icon {
+  height: 70px;
+  width: 70px;
+}
+@media screen and (min-width: 768px) {
+  .image-icon {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.AppName {
+  color: #1e293b;
+  font-size: 16px;
+  font-family: 'Bree Serif';
+}
+@media screen and (min-width: 768px) {
+  .AppName {
+    font-size: 25px;
+  }
+}
